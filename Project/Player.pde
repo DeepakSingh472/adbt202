@@ -11,11 +11,11 @@ class Player {
     if (game==true) {
       ellipse(mouseX, mouseY, 30, 30);
       fill(B);
-      text("Deepak", mouseX-30, mouseY+30);
+      text("Player", mouseX-30, mouseY+30);
     } else {
       ellipse(20, 40, 30, 30);
       fill(B);
-      text("Deepak", 20-30, 40+30);
+      text("Player", 20-30, 40+30);
     }
   }
 }
